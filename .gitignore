@@ -1,0 +1,18 @@
+# Environments
+venv/
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Data and ML outputs
+dataset/
+models/*.pt
+models/*.pth
+runs/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
