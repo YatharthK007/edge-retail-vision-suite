@@ -10,6 +10,9 @@ __pycache__/
 dataset/
 models/*.pt
 models/*.pth
+models/*.onnx
+models/*.caffemodel
+models/*.prototxt
 runs/
 logs/
 
