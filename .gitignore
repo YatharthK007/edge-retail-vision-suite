@@ -16,3 +16,9 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db
+
+# PyTorch raw weights
+*.pt
+
+# Ultralytics training runs (graphs, cache, etc.)
+runs/

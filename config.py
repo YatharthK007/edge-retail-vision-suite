@@ -118,7 +118,7 @@ DWELL_ZONE_THICKNESS = 2
 # TRAINING (used by training.py)
 
 TRAIN_EPOCHS   = 50
-TRAIN_BATCH    = 16
+TRAIN_BATCH    = 8
 TRAIN_IMG_SIZE = 640                                            # square side in px
 TRAIN_DATA_YAML = os.path.join(PROJECT_ROOT, "dataset", "data.yaml")
 TRAIN_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "runs", "train")
