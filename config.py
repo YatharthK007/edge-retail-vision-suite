@@ -17,7 +17,8 @@ MODEL_SSD_ONNX      = os.path.join(PROJECT_ROOT, "models", "ssd_mobilenet.onnx")
 
 #  Input source 
 # Swap this string to "0" (or 1, 2 …) to use a live USB camera instead.
-INPUT_SOURCE = os.path.join(PROJECT_ROOT, "dataset", "test_video.mp4")
+# INPUT_SOURCE = os.path.join(PROJECT_ROOT, "dataset", "test_video.mp4")
+INPUT_SOURCE = os.path.join(PROJECT_ROOT, "dataset", "TownCentreXVID.mp4")
 
 #  Output / logging 
 LOG_FILE_PATH       = os.path.join(PROJECT_ROOT, "logs", "ervs_log.txt")
