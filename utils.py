@@ -391,7 +391,7 @@ def check_dwell_zones(
             if zx1 <= cx <= zx2 and zy1 <= cy <= zy2:
                 dwell_tracker[zone_name]["frames"]  += 1
                 dwell_tracker[zone_name]["seconds"]  = (
-                    dwell_tracker[zone_name]["frames"] / safe_fps
+                    dwell_tracker[zone_name]["frames"] / 25.0
                 )
 
     return dwell_tracker
