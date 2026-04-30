@@ -49,7 +49,7 @@ A benchmarking suite evaluated YOLOv8n against YOLOv5n and SSD-MobileNet. YOLOv8
 | Hardware Setup | Inference Time (ms) | Average FPS | Status |
 | :--- | :--- | :--- | :--- |
 | **Intel i5 / GTX 1650 Ti (Laptop)** | ~51.6 ms | ~19.4 FPS | Benchmark Verified |
-| **NVIDIA Jetson Nano 4GB (Edge)** | ~80.0 ms | ~10 - 15 FPS | Verified |
+| **NVIDIA Jetson Nano 4GB (Edge)** | ~80.0 ms | ~5 - 7 FPS | Verified |
 
 ## 7. Setup Instructions
 
